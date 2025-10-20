@@ -1,13 +1,8 @@
-![Project Logo](assets/airgapped_offline_rag_banner.jpg)
+# MUNSHI-e Offline RAG
 
-# Airgapped Offline RAG
-
-This project by [Vincent Koc](https://github.com/vincentkoc) implements a Retrieval-Augmented Generation (RAG) based Question-Answering system for documents. It uses Llama 3, Mistral, and Gemini models for local inference with LlaMa c++, langchain for orchestration, chromadb for vector storage, and Streamlit for the user interface.
-
-![screenshot airgapped_offline_rag-screenshot.png](assets/airgapped_offline_rag-screenshot.png)
 
 ## Table of Contents
-- [Airgapped Offline RAG](#airgapped-offline-rag)
+- [MUNSHI-e Offline RAG](#munshi-e-offline-rag)
   - [Table of Contents](#table-of-contents)
   - [Setup](#setup)
   - [Running the Application](#running-the-application)
@@ -17,10 +12,8 @@ This project by [Vincent Koc](https://github.com/vincentkoc) implements a Retrie
   - [Configuration](#configuration)
   - [Features](#features)
     - [Supported Features](#supported-features)
-    - [Future Features](#future-features)
   - [Contributing](#contributing)
   - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
 ## Setup
 
@@ -84,17 +77,7 @@ Adjust settings in `config.yaml` to modify model paths, chunk sizes, and other p
 - [x] Integration with Streamlit for UI
 - [x] Support for streaming responses
 
-### Future Features
-- [ ] Integration with additional models (coming soon)
-- [ ] Support non-PDF documents (coming soon)
-- [ ] Support for image documents (coming soon)
-- [ ] Support for visualizing embeddings (coming soon)
-- [ ] Support for chat history (coming soon)
-- [ ] Enhanced user interface (coming soon)
-- [ ] Support for multi-modal documents (coming soon)
-- [ ] Exporting and importing RAG configurations (coming soon)
-- [ ] Exposing a REST API (coming soon)
-- [ ] Observability (coming soon)
+
 
 ## Contributing
 
