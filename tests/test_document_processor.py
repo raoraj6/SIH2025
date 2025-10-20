@@ -1,5 +1,3 @@
-
-
 import pytest
 from unittest.mock import patch, MagicMock
 from app.document_processor import get_embedding_function, process_documents
